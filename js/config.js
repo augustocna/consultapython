@@ -23,12 +23,12 @@ const CONFIG = deepFreeze({
      * ---------------------------------------------------------------------- */
     SITE: {
         LANG: 'pt-BR',
-        PAGE_TITLE: 'Python Salva-vidas | Guia de consulta',
+        PAGE_TITLE: 'Consulta-Python | Guia de consulta',
         BRAND_ICON: '🐍',
-        BRAND_TEXT: 'Python Salva-vidas',
-        HERO_TITLE: 'Python Salva-vidas',
+        BRAND_TEXT: 'Consulta-Python',
+        HERO_TITLE: 'Consulta-Python',
         HERO_SUBTITLE: 'Do básico ao intermediário, com exemplos prontos para copiar e testar.',
-        FOOTER: 'CNA - Tecnologia e Inovação. Bons estudos!',
+        FOOTER: 'CNA - Tecnologia e Inovação.',
     },
 
     /* -------------------------------------------------------------------------
@@ -64,8 +64,8 @@ const CONFIG = deepFreeze({
     FONTS: {
         ENABLED: true,                  // false = não baixa nada, usa as do sistema
         URL: 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap',
-        BODY: "'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
-        CODE: "'JetBrains Mono', ui-monospace, 'Cascadia Code', Consolas, monospace",
+        BODY: "'Roboto Mono', Consolas, system-ui, -apple-system, monospace",
+        CODE: "Consolas, ui-monospace, monospace",
     },
 
     /* -------------------------------------------------------------------------
